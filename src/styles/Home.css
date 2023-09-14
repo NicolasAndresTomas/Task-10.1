@@ -1,0 +1,47 @@
+/*export to headerImageComponent.js*/
+.img-header {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .img-header img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  .card-container-1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+/*export to cardContainerComponent-2.js*/
+.card-container-2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

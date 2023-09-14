@@ -1,0 +1,89 @@
+.profile {
+  color: #FCF6F6;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  }
+  
+  .profile h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-section {
+    color: #FCF6F6;
+    margin-bottom: 20px;
+  }
+  
+  .profile-component {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #302C2C;
+    border-style: solid;
+    border-width: thin;
+    border-color: #B1B1B1;
+    margin-bottom: 100px;
+    width: 35vw;
+  }
+  
+  .profile-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .profile-section input {
+    border-radius: 10px;
+    height: 2.5vh;
+    background-color: #FCF6F6;
+    border-style: solid;
+    border-width: thin;
+    border-color: #B1B1B1;
+    margin-top: 5px;
+    padding-left: 10px;
+    width: 100%;  
+  }
+  
+  .profile-section input::placeholder{
+    color: #B8B8B8;
+  }
+  
+  .profile-component button {
+    border: none;
+    padding: 8px 20px;
+    align-self: flex-end;
+    width: 40%;
+    margin-top: 20px;
+    font-weight: 900;
+    margin-left: 60%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 900;
+  }
+  
+  .profile-deletion-component {
+    padding: 20px;
+    margin-bottom: 100%;
+    width: 35vw;
+    border-radius: 10px;
+    background-color: #302C2C;
+    border-style: solid;
+    border-width: thin;
+    border-color: #B1B1B1;
+  }
+  
+  .profile-deletion-component button {
+    border: none;
+    padding: 8px 20px;
+    align-self: flex-end;
+    width: 40%;
+    margin-top: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: black;
+  }

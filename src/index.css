@@ -1,13 +1,169 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Inter', sans-serif; 
+  background-size: 100vw 100vh; 
+  background-repeat: no-repeat; 
+  background-color: #302C2C;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*export to titleComponent.js*/
+.title {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #FFFFFF;
 }
+
+
+/*export to cardComponent.js*/
+.card {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin: 10px;
+  max-width: 200px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card .star-icon {
+  margin-right: 5px; 
+  width: 16px; 
+  height: 16px; 
+}
+
+.card p {
+  margin-top: 5px;
+}
+
+
+/*export to showMoreButtonComponent.js*/
+.show-more-button {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 8px 20px;
+  background-color: #FFFFFF;
+  color: black;
+  width: 70%;
+  margin-top: 40px;
+  font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.show-more-button:hover {
+  background-color: #aaa; 
+}
+
+/*export to newsLetterComponent*/
+.newsletter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh; 
+}
+
+.newsletter-title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.newsletter-title {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.newsletter-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.newsletter-input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 300px;
+}
+
+.newsletter-button {
+  padding: 12px 30px;
+  border: none;
+  background-color: #ccc; 
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsletter-button:hover {
+  background-color: #aaa; 
+}
+
+/*export to footerComponent*/
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-columns-container {
+  display: flex;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-row-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-row a{
+  padding: 20px;
+}
+
+.social-icon {
+  width: 50px; 
+  height: 50px;
+  object-fit: contain;
+}
+
