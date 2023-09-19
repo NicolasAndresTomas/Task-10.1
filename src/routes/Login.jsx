@@ -8,6 +8,7 @@ const Login = (props)=>{
         const logGoogleUser = async () =>{
         const {user} = await signInWithGooglePopup();
         const userDocRef = await createUserDocFromAuth(user)
+        navigate('/')
        }
         
 
@@ -75,7 +76,8 @@ const Login = (props)=>{
                     />
                 </div>
                 <button onClick={handleSubmit}>Sign in</button>
-                {error && <div className='error-message'>{error}</div>} {/* Render error message if there's an error */}
+                <button onClick={logGoogleUser}>Continue with Google</button>
+                {error && <div className='error-message'>{error}</div>} {}
                 <div className='terms-privacy'>
                     <Link to="/signup">Terms of Use</Link> <Link to="/signup">Privacy Policy</Link>
                     <p>You are agree to our terms and policies</p>

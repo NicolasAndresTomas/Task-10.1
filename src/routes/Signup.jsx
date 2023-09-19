@@ -43,7 +43,7 @@ const Signup = (props)=>{
             navigate('/login');
         }
         catch(error){
-            setError(error.message); // Set the error message state
+            setError(error.message);
             console.log('error in creating user', error.message)
 
         }
@@ -107,7 +107,7 @@ const Signup = (props)=>{
                     />
                 </div>
                 <button onClick={handleSubmit}>Sign up</button>
-                {error && <div className='error-message'>{error}</div>} {/* Render error message if there's an error */}
+                {error && <div className='error-message'>{error}</div>} {}
                 <div className='terms-privacy'>
                     <Link to="/signup">Terms of Use</Link> <Link to="/signup">Privacy Policy</Link>
                     <p>You are agree to our terms and policies</p>
