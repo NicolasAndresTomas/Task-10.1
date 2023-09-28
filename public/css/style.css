@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url('/public/images/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0.01%;
+  background-color: black;
+  height: 100vh;
+  font-family: Courier New;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
+.container-1 img {
+  width: 70%;
+  margin-bottom: 25px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container-2 h2 {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 25px;
+  margin-top: 35px;
+}
+
+.container-2 span {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 11.5px;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.container-1, .container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%; 
+  max-width: 400px;
+  position: relative;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr; 
+}
+
+textarea,
+input {
+  font-weight: 400;
+  padding: 14px 16px;
+  border: none;
+  font-family: Courier New;
+  width: 65%; 
+  box-sizing: border-box; 
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border-color: black;
+}
+
+button {
+  border: none;
+  padding: 14px 0px;
+  background: #212121;
+  color: #ffffff;
+  margin-left: -10px;
+  width: 35%;
+  font-weight: bold;
+  font-family: Courier New;
+}
+
+button:focus {
+  background: #161616;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media img {
+  margin: 0 15px; 
+  filter: brightness(27%);
+}
+.social-media img:hover {
+  filter: brightness(100%);
+}
+
+@media all and (max-width: 480px) {
+  img {
+      width: 100%;
+  }
+}
